@@ -1,4 +1,4 @@
-FROM node:15.4 as build
+FROM node:15.4-alpine as build
 
 WORKDIR /app
 COPY package*.json ./
@@ -6,7 +6,7 @@ RUN npm install
 COPY . .
 RUN npm run build
 
-FROM nginx:1.20
+FROM fholzer/nginx-brotli:v1.12.2
 
 WORKDIR /etc/nginx
 ADD nginx.conf /etc/nginx/nginx.conf
