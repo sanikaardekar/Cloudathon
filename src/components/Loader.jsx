@@ -61,7 +61,7 @@ const Loader = () => {
       <div className="loader-cont pos-rel">
         <div className="pos-absf flex-all load-cont">
           <div className="video-load-cont pos-rel">
-            <div className="left-word pos-abs">Elite Coders</div>
+            <div className="left-word pos-abs">Enemies of Syntax</div>
             <div className="right-word pos-abs"> &nbsp;Get Fit quick </div>
             <div className="video-cont-load">
               <div className="video-inner-load">
