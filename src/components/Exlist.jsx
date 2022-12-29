@@ -64,6 +64,11 @@ const Exlist = () => {
       title: "Sukha Sana",
       p: "What is Sukhasana? Sukhasana, also referred to as easy pose, is a yoga asana performed in a seated position. Easy pose aids in opening the hips and aligning the spine, and its simplicity makes it suitable for yogis of all skill levels, including beginners.",
     },
+    {
+      image: third,
+      title: "Sava Sana",
+      p: "Savasana, also known as corpse pose, is a restorative yoga pose that involves lying on your back and letting go of all physical and mental tension. It is typically done at the end of a yoga practice as a way to relax and restore the body and mind.",
+    },
   ];
 
   return (

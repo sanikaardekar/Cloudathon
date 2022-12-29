@@ -91,7 +91,7 @@ const Navbar = ({ moveIndex }) => {
                 Exercise
               </div>
             </Link>
-            <Link to="/calorie">
+            <a href="https://joshiyash05-mlmodel-fruits-vegetable-classification-enzm2k.streamlit.app/">
               <div
                 className="nav nav3"
                 onMouseEnter={() => {
@@ -100,7 +100,7 @@ const Navbar = ({ moveIndex }) => {
               >
                 Calorie
               </div>
-            </Link>
+            </a>
             <Link to="/room">
               <div
                 className="nav nav4"
