@@ -57,17 +57,12 @@ const Exlist = () => {
     {
       image: first,
       title: "Push ups",
-      p: "kb ouhsodfh sfo uhsefohef oae ghoaieh gohsr g oshgohgoshego hsog hosh  ous oudhf ous hfo hsdoughousudhfou sdouf  ohfo hs dofh oh goh f so oih os dohsodf osdh fohsdofhoisd oih sdfoh sd8ofsoi odsho ",
+      p: "Push-ups are a convenient exercise that you can do anywhere. They don't need equipment or a gym membership. You can also adjust them to meet your own physical ability or to target specific muscles.",
     },
     {
       image: second,
       title: "Sukha Sana",
       p: "What is Sukhasana? Sukhasana, also referred to as easy pose, is a yoga asana performed in a seated position. Easy pose aids in opening the hips and aligning the spine, and its simplicity makes it suitable for yogis of all skill levels, including beginners.",
-    },
-    {
-      image: third,
-      title: "Push ups",
-      p: "kb ouhsodfh sfo uhsefohef oae ghoaieh gohsr g oshgohgoshego hsog hosh  ous oudhf ous hfo hsdoughousudhfou sdouf  ohfo hs dofh oh goh f so oih os dohsodf osdh fohsdofhoisd oih sdfoh sd8ofsoi odsho ",
     },
   ];
 
@@ -84,6 +79,9 @@ const Exlist = () => {
                       <div className="left-title">{exercise.title}</div>
                     </Link>
                     <div className="left-p">{exercise.p}</div>
+                    <Link to="/sukhasana">
+                      <button className="btn">Start</button>
+                    </Link>
                   </div>
                 );
               })}
