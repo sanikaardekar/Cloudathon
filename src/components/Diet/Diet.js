@@ -48,6 +48,9 @@ const Diet = () => {
 
   return (
     <>
+      <h1>
+        <center>Diet Planner</center>
+      </h1>
       <div className="cus-inp" onChange={handleChange}>
         <input placeholder="Enter any ingredient" />
 

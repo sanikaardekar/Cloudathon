@@ -85,7 +85,7 @@ const Exlist = () => {
                     </Link>
                     <div className="left-p">{exercise.p}</div>
                     <Link to="/sukhasana">
-                      <button className="btn">Start</button>
+                      <button className="btn" style={{ position: "relative", left: "200px " }}>Start</button>
                     </Link>
                   </div>
                 );
