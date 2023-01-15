@@ -20,20 +20,6 @@ const Video = () => {
         // markers:true
       },
     });
-
-    // let a = window.screen.height*2.5
-    // gsap.to('.land-video-cont',{
-    //    // yes, we can add it to an entire timeline!
-    //    scrollTrigger: {
-    //     trigger: ".land-video-cont",
-    //     // pin: true,   // pin the trigger element while active
-    //     start: "bottom bottom",
-    //     markers:true
-    // }
-    // ,
-    // y:-a
-
-    // })
     let a = 0.5;
     let h = -window.innerHeight * 0.1;
 
@@ -57,29 +43,7 @@ const Video = () => {
       },
       scale: 0.5,
     });
-    let v = window.innerHeight;
-    // gsap.to(".land-text",{
-    //     scrollTrigger: {
-    //         trigger: ".land-video-cont",
-    //         start: `bottom-=${v}px bottom`,
-    //         end: "bottom 96%",
-    //         scrub:true,
-    //     },
-    //     opacity:1,
-    //     y:h
-    // })
-
-    // ScrollTrigger.create({
-    //     trigger: ".land-video-cont",
-    //     start: "top top",
-    //     endTrigger: ".land-video-cont",
-    //     end: "bottom top",
-    //     // onToggle: self => console.log("toggled, isActive:", self.isActive),
-    //     // onUpdate: self => {
-    //     //   console.log("progress:", self.progress.toFixed(3), "direction:", self.direction, "velocity", self.getVelocity());
-    //     // }
-    //     pin:true
-    //   });
+  
   }, []);
   return (
     <>
